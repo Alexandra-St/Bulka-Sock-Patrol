@@ -78,7 +78,7 @@ namespace BulkoGame.UI
             DrawButton("PLAY",new Rect(x-w/2,y,w,h),scale,BeginControls);
             DrawButton("LEVEL SELECT",new Rect(x-w/2,y+72*scale,w,h),scale,()=>state=ScreenState.LevelSelect);
             DrawButton("QUIT",new Rect(x-w/2,y+144*scale,w,h),scale,Quit);
-            DrawLabel("Alpha 0.5",new Rect(x-w/2,y+220*scale,w,28*scale),footerStyle,18*scale);
+            DrawLabel("Alpha 0.6",new Rect(x-w/2,y+220*scale,w,28*scale),footerStyle,18*scale);
         }
 
         private void Quit() { if (!Application.isEditor) Application.Quit(); }
