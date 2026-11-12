@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce8399ad9af4438b83554407c96b1b6, type: 3}
+  m_Name: ApartmentArtSet
+  m_EditorClassIdentifier: Assembly-CSharp::BulkoGame.Art.ApartmentArtSet
+  woodFloorLeft: {fileID: 21300000, guid: c848c7312d84042f2a3ed46056218e86, type: 3}
+  woodFloorCenter: {fileID: 21300000, guid: 30c0df1b1fce148a2b7b34b0591d3c77, type: 3}
+  kitchenFloor: {fileID: 21300000, guid: ee6f56eb114384c00a7c2ba260b8e1f0, type: 3}
+  bathroomFloor: {fileID: 21300000, guid: 05fc340d07d6e41c79e4dd6a163c0ae8, type: 3}
+  wall: {fileID: 21300000, guid: 990c8064ea8c240e4bbdcd3b9076985f, type: 3}
+  bed: {fileID: 21300000, guid: 420538cc9edba4ed4b9a05f989d1db6a, type: 3}
+  nightstand: {fileID: 21300000, guid: c40cb41d68e6846dca1418e2553b8e74, type: 3}
+  wardrobe: {fileID: 21300000, guid: 976de74f484ee48009f60852472a9be5, type: 3}
+  bookshelf: {fileID: 21300000, guid: de5a24b7903114c9c9bec14da01a0069, type: 3}
+  sofa: {fileID: 21300000, guid: fde32dae9f0ad49a38269da8667840c8, type: 3}
+  sideTable: {fileID: 21300000, guid: bc9a8431f872944b091bf12de699ae22, type: 3}
+  coffeeTable: {fileID: 21300000, guid: cb19c28f0cd034445afeac59cc61396d, type: 3}
+  basket: {fileID: 21300000, guid: 85bb3fa05b2f84df58d2e3179b168946, type: 3}
+  bedroomRug: {fileID: 21300000, guid: 0eb435519a2634d6e915864d9148234d, type: 3}
+  livingRug: {fileID: 21300000, guid: 6deeb3256628242c592656c501f31ff4, type: 3}
+  kitchenCounter: {fileID: 21300000, guid: 05f8a8e6a727e4255b25c79a854530a4, type: 3}
+  diningTable: {fileID: 21300000, guid: 284f0dec3ac96457586e877152e336a8, type: 3}
+  fridge: {fileID: 21300000, guid: 87c586f5a9bd34f25a4a7254d6b66595, type: 3}
+  bathtub: {fileID: 21300000, guid: 8bb175a37a3024118b72dbe3f1c14a5f, type: 3}
+  vanity: {fileID: 21300000, guid: 555122c7164f147c79f15fb33f7aff91, type: 3}
+  plant: {fileID: 21300000, guid: 7a37d583cee9e45d0b53b27c791bd0bc, type: 3}
+  bathroomMat: {fileID: 21300000, guid: d9b452da76840444099420a9319196d8, type: 3}
+  bulka: {fileID: 21300000, guid: 36f3b5dfd0af34736ab17ce25f1be802, type: 3}
+  orangeCat: {fileID: 21300000, guid: fe7498c168b9445788e0ead52d2ac2d2, type: 3}
+  trapZoneMarker: {fileID: 21300000, guid: 09720bec92c464fddade9d60cf9ede41, type: 3}
+  slowTrap: {fileID: 21300000, guid: f57783f94b5894c039b1ba5cd1899be2, type: 3}
+  bulkaAnimator: {fileID: 9100000, guid: 51eadf8e154924f7fb2ef71da86f8fe6, type: 2}
+  orangeCatAnimator: {fileID: 9100000, guid: 290e7cb0f538b4cadb1655dd7c059ecd, type: 2}
+  bulkaPrefab: {fileID: 3721933886232044429, guid: 1964adc88d2a544a4be569fa5080d06d, type: 3}
+  sockPrefab: {fileID: 7943131998655067654, guid: 360adfc5388c547babb277650f90b839, type: 3}
+  orangeCatPrefab: {fileID: 6873593748657791628, guid: 5781b09682f2749dc956fb7d93c2b81c, type: 3}
+  slowTrapPrefab: {fileID: 7375124470036949426, guid: a50572505d33a4f0eabe81cd9a65f614, type: 3}
+  basketPrefab: {fileID: 6327905051086754512, guid: de637151328114b68ac8042ff532b50c, type: 3}
+  sockPink: {fileID: 21300000, guid: 2892735ae6ba142ddb642c4760a41522, type: 3}
+  sockBlue: {fileID: 21300000, guid: 7f97c18a6d33d48e388265509bc95548, type: 3}
+  sockYellow: {fileID: 21300000, guid: 0a3bf7cd181454414a9be9e33c748991, type: 3}
+  sockGreen: {fileID: 21300000, guid: cf1c86785bf504cd68ff14e5e8a2bdbd, type: 3}
+  hudCard: {fileID: 21300000, guid: b67a5b8ad9dea4b6eb9815f7be45c7f9, type: 3}
+  finishCard: {fileID: 21300000, guid: 1907d3173b83b4ff1967f0bf4b87c8d7, type: 3}
+  trapPromptChip: {fileID: 21300000, guid: 5f4a233ab8cae4d6698e1075243f8469, type: 3}

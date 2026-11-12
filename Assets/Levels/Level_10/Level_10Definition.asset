@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f3ba73e07ff49ceb897bae34fffc28, type: 3}
+  m_Name: Level_10Definition
+  m_EditorClassIdentifier: Assembly-CSharp::BulkoGame.Levels.LevelDefinition
+  levelId: Level_10
+  displayName: Level 10
+  balance: {fileID: 11400000, guid: 46960a6ec378477893d09aa203421dac, type: 2}
+  audio: {fileID: 11400000, guid: 6799bc05aae8e495dbeeffe4943d197b, type: 2}
+  art: {fileID: 11400000, guid: 3f5146629d7be48e29504459c0e39712, type: 2}
+  environmentArt: {fileID: 11400000, guid: 4c1c286076f88472491cce7ce4fa1310, type: 2}
+  sockCount: 10
+  minimumSocksPerZone: 1
+  maximumSocksPerZone: 3
+  catRouteSequence:
+  - N_NORMAL
+  - W_SHORT
+  - E_SHORT
+  - CROSS_SHORT
+  - S_NORMAL
+  nextLevelSceneName: 
