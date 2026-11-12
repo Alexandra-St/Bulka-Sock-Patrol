@@ -4,6 +4,15 @@ A 2D top-down game where Bulka protects collected socks from cats across ten cam
 
 Collect socks → deposit them → defend them from cats.
 
+## Download
+
+- [Windows x86_64](https://github.com/Alexandra-St/BulkoGame/releases/download/v0.6.0-alpha/BulkoGame_Alpha_0.6_Windows.zip)
+- [macOS Universal (Apple Silicon + Intel)](https://github.com/Alexandra-St/BulkoGame/releases/download/v0.6.0-alpha/BulkoGame_Alpha_0.6_macOS.zip)
+
+[Full Alpha 0.6 Release](https://github.com/Alexandra-St/BulkoGame/releases/tag/v0.6.0-alpha)
+
+The macOS build is unsigned. If macOS blocks the first launch, use System Settings → Privacy & Security → Open Anyway.
+
 ![Bulka collecting socks in the apartment](Screenshots/UI_Polish/Collect_HUD.png)
 
 ## Defense
