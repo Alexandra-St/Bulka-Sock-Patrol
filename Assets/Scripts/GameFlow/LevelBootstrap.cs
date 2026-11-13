@@ -48,6 +48,7 @@ namespace BulkoGame.GameFlow
                 environmentArt.sockGreenCheck, environmentArt.sockHeart
             });
             var socks = sockSpawner.SpawnSocks();
+            if (socks == null) return;
             if (socks.Count != definition.sockCount)
             {
                 Debug.LogError($"Level '{definition.levelId}' spawned {socks.Count} socks; expected {definition.sockCount}. Check its authored points and colliders.", this);

@@ -108,7 +108,9 @@ namespace BulkoGame.Collectibles
             foreach (var point in selected)
             {
                 var variant = visualVariants[Random.Range(0, visualVariants.Length)];
-                result.Add(CreateSock(point.transform.position, variant));
+                var sock = CreateSock(point.transform.position, variant);
+                if (sock == null) return null;
+                result.Add(sock);
             }
             return result;
         }
