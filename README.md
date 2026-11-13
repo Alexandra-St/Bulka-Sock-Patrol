@@ -28,6 +28,13 @@ After the collect phase, defend deposited socks from cats following authored rou
 
 ![Bedroom environment](Screenshots/Environment_Integration/Bedroom.png)
 
+## Engineering highlights
+
+- Per-level runtime state is separated between `GameSessionState` and `GameFlow`.
+- Level configuration, scene bindings, and cat routes are authored as data rather than duplicated runtime logic.
+- Editor tooling supports level authoring, sock placement, and validation.
+- Cat movement includes route-progress recovery designed around authored shortcuts and 2D collision constraints.
+
 ## Controls
 
 - WASD / Arrow Keys — Move
