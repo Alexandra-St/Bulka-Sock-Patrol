@@ -9,7 +9,7 @@ namespace BulkoGame.EditorTools
 {
     public static class BuildWindowsAlpha
     {
-        [MenuItem("BulkoGame/Build Windows Alpha...")]
+        [MenuItem("Bulka: Sock Patrol/Build Windows Alpha...")]
         public static void BuildAlpha()
         {
             string root = Directory.GetParent(Application.dataPath).FullName;
@@ -30,7 +30,7 @@ namespace BulkoGame.EditorTools
             var options = new BuildPlayerOptions
             {
                 scenes = scenes,
-                locationPathName = Path.Combine(outputDirectory, "BulkoGame.exe"),
+                locationPathName = Path.Combine(outputDirectory, "BulkaSockPatrol.exe"),
                 target = BuildTarget.StandaloneWindows64,
                 options = BuildOptions.None
             };
@@ -43,7 +43,7 @@ namespace BulkoGame.EditorTools
                 string readmeSource = Path.Combine(projectRoot, "Builds", "Windows", "README_TEST.txt");
                 if (File.Exists(readmeSource))
                     File.Copy(readmeSource, Path.Combine(outputDirectory, "README_TEST.txt"), true);
-                string zipPath = Path.Combine(Directory.GetParent(outputDirectory).FullName, "BulkoGame_" + Path.GetFileName(outputDirectory) + "_Windows.zip");
+                string zipPath = Path.Combine(Directory.GetParent(outputDirectory).FullName, "BulkaSockPatrol_Alpha_0.7_Windows.zip");
                 if (File.Exists(zipPath)) File.Delete(zipPath);
                 ZipFile.CreateFromDirectory(outputDirectory, zipPath, System.IO.Compression.CompressionLevel.Optimal, false);
                 Debug.Log("Windows build ready at " + options.locationPathName);

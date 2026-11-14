@@ -10,7 +10,7 @@ public static class IntegrateCharacterSheets
     private const string ClipRoot = "Assets/Art/Animations/Characters";
     private static readonly string[] Directions = { "Down", "Up", "Left", "Right" };
 
-    [MenuItem("BulkoGame/Integrate character sheets")]
+    [MenuItem("Bulka: Sock Patrol/Integrate character sheets")]
     public static void Integrate()
     {
         if (!EditorUtility.DisplayDialog("Integrate character sheets",
@@ -34,7 +34,7 @@ public static class IntegrateCharacterSheets
         set.orangeCatAnimator = cat;
         EditorUtility.SetDirty(set);
         AssetDatabase.SaveAssets();
-        Debug.Log("BulkoGame: integrated 140 production character frames, 36 animation clips and two visual controllers.");
+        Debug.Log("Bulka: Sock Patrol: integrated 140 production character frames, 36 animation clips and two visual controllers.");
     }
 
     private static bool HasRequiredFrames()

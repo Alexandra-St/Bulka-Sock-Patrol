@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace BulkoGame.GameFlow
 {
-    [CreateAssetMenu(menuName = "BulkoGame/Game Balance")]
+    [CreateAssetMenu(menuName = "Bulka: Sock Patrol/Game Balance")]
     public sealed class GameBalanceConfig : ScriptableObject
     {
         public float collectDuration = 60f;

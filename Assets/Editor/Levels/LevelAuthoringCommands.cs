@@ -19,8 +19,8 @@ namespace BulkoGame.Editor
     {
         private const string LevelsPath = "Assets/Levels";
         private const string SharedDefaultsPath = "Assets/Levels/Level_01/Level_01Definition.asset";
-        private const string CreateMenu = "BulkoGame/Levels/Create New Level";
-        private const string ConfigureMenu = "BulkoGame/Levels/Configure Shared Setup";
+        private const string CreateMenu = "Bulka: Sock Patrol/Levels/Create New Level";
+        private const string ConfigureMenu = "Bulka: Sock Patrol/Levels/Configure Shared Setup";
 
         private string levelId = "Level_02";
         private string displayName = "Level 02";

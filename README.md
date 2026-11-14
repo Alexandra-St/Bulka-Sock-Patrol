@@ -1,4 +1,4 @@
-# BulkoGame
+# Bulka: Sock Patrol
 
 A 2D top-down game where Bulka protects collected socks from cats across ten campaign levels.
 
@@ -6,10 +6,7 @@ Collect socks → deposit them → defend them from cats.
 
 ## Download
 
-- [Windows x86_64](https://github.com/Alexandra-St/BulkoGame/releases/download/v0.6.0-alpha/BulkoGame_Alpha_0.6_Windows.zip)
-- [macOS Universal (Apple Silicon + Intel)](https://github.com/Alexandra-St/BulkoGame/releases/download/v0.6.0-alpha/BulkoGame_Alpha_0.6_macOS.zip)
-
-[Full Alpha 0.6 Release](https://github.com/Alexandra-St/BulkoGame/releases/tag/v0.6.0-alpha)
+[Releases](https://github.com/Alexandra-St/Bulka-Sock-Patrol/releases)
 
 The macOS build is unsigned. If macOS blocks the first launch, use System Settings → Privacy & Security → Open Anyway.
 
@@ -46,7 +43,7 @@ After the collect phase, defend deposited socks from cats following authored rou
 
 Built with Unity 6000.5.5f1. `LevelDefinition` stores level configuration, `LevelSceneBindings` connects authored scene objects, `LevelBootstrap` assembles runtime systems, and `GameSessionState` tracks a run. Editor tools support level authoring and validation.
 
-Windows x86_64 builds use the Unity Editor build pipeline and go under `Builds/Windows/`.
+Windows x86_64 builds use the Unity Editor build pipeline and go under `Builds/Windows/`. The next release uses `BulkaSockPatrol.exe` and `BulkaSockPatrol_Alpha_0.7_Windows.zip`; the macOS release archive will be `BulkaSockPatrol_Alpha_0.7_macOS.zip`.
 
 Audio files are intentionally omitted from this public repository.
 They are third-party generated assets subject to separate licensing terms;

@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace BulkoGame.Audio
 {
-    [CreateAssetMenu(menuName = "BulkoGame/Audio Config")]
+    [CreateAssetMenu(menuName = "Bulka: Sock Patrol/Audio Config")]
     public sealed class AudioConfig : ScriptableObject
     {
         [Range(0f, 1f)] public float masterVolume = 1f;

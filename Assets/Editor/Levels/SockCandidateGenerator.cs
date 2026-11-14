@@ -17,7 +17,7 @@ namespace BulkoGame.Editor
     /// </summary>
     public static class SockCandidateGenerator
     {
-        private const string MenuPath = "BulkoGame/Levels/Generate Sock Candidates";
+        private const string MenuPath = "Bulka: Sock Patrol/Levels/Generate Sock Candidates";
         private const string Level02Id = "Level_02";
         private const float MinimumPointSpacing = 1.25f;
         private const float AdditionalClearance = .12f;

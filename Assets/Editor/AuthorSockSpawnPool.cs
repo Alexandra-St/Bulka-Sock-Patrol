@@ -34,7 +34,7 @@ namespace BulkoGame.Editor
             new PointData("Bathroom",9.7f,-7.3f), new PointData("Bathroom",11.6f,-.9f)
         };
 
-        [MenuItem("BulkoGame/Author Sock Spawn Pool")]
+        [MenuItem("Bulka: Sock Patrol/Author Sock Spawn Pool")]
         public static void Author()
         {
             var scene = EditorSceneManager.OpenScene("Assets/Scenes/Level_01.unity");

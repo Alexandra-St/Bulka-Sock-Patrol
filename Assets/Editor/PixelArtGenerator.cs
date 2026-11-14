@@ -10,7 +10,7 @@ public static class PixelArtGenerator
     private const string Root = "Assets/Art/PixelArt";
     private static readonly Color32 Ink = C(69, 49, 44), DarkWood = C(111, 70, 51), Wood = C(169, 111, 70), LightWood = C(220, 164, 105), Cream = C(247, 223, 183), Sage = C(125, 151, 119), SageLight = C(171, 189, 151), Tan = C(177, 111, 67);
 
-    [MenuItem("BulkoGame/Generate Pixel Art Sprites")]
+    [MenuItem("Bulka: Sock Patrol/Generate Pixel Art Sprites")]
     public static void Generate()
     {
         Directory.CreateDirectory(Root);
@@ -74,7 +74,7 @@ public static class PixelArtGenerator
         }
         so.ApplyModifiedPropertiesWithoutUndo();
         EditorUtility.SetDirty(artSet); AssetDatabase.SaveAssets();
-        Debug.Log("BulkoGame: authored and imported " + assets.Count + " crisp pixel-art sprites.");
+        Debug.Log("Bulka: Sock Patrol: authored and imported " + assets.Count + " crisp pixel-art sprites.");
     }
 
     private static string CharLower(string s) => char.ToLowerInvariant(s[0]) + s.Substring(1);

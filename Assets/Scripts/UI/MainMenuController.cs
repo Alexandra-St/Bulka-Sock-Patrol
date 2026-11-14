@@ -74,11 +74,11 @@ namespace BulkoGame.UI
         private void DrawMainMenu(float scale)
         {
             float x=Screen.width*.72f,w=340*scale,h=54*scale,y=Screen.height*.36f;
-            DrawLabel("BULKO",new Rect(x-w*.6f,y-112*scale,w*1.2f,82*scale),titleStyle,66*scale);
+            DrawLabel("Bulka: Sock Patrol",new Rect(x-w*.6f,y-112*scale,w*1.2f,82*scale),titleStyle,40*scale);
             DrawButton("PLAY",new Rect(x-w/2,y,w,h),scale,BeginControls);
             DrawButton("LEVEL SELECT",new Rect(x-w/2,y+72*scale,w,h),scale,()=>state=ScreenState.LevelSelect);
             DrawButton("QUIT",new Rect(x-w/2,y+144*scale,w,h),scale,Quit);
-            DrawLabel("Alpha 0.6",new Rect(x-w/2,y+220*scale,w,28*scale),footerStyle,18*scale);
+            DrawLabel("Alpha 0.7",new Rect(x-w/2,y+220*scale,w,28*scale),footerStyle,18*scale);
         }
 
         private void Quit() { if (!Application.isEditor) Application.Quit(); }

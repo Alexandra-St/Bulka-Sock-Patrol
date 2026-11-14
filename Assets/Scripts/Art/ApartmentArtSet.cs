@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace BulkoGame.Art
 {
-    [CreateAssetMenu(menuName = "BulkoGame/Apartment Art Set")]
+    [CreateAssetMenu(menuName = "Bulka: Sock Patrol/Apartment Art Set")]
     public sealed class ApartmentArtSet : ScriptableObject
     {
         public Sprite woodFloorLeft;

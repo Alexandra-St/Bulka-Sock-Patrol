@@ -79,7 +79,7 @@ public static class BulkaSpriteGenerator
         AssetDatabase.DeleteAsset("Assets/Art/PixelArt/Bulka.png");
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
-        Debug.Log("BulkoGame: generated 20 Bulka frames, eight directional animation clips and Bulka.controller.");
+        Debug.Log("Bulka: Sock Patrol: generated 20 Bulka frames, eight directional animation clips and Bulka.controller.");
     }
 
     private static Texture2D DrawFrame(Facing facing, int step, bool idle)

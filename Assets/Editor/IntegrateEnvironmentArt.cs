@@ -13,7 +13,7 @@ namespace BulkoGame.Editor
         private const string AssetPath = "Assets/Art/EnvironmentArtSet.asset";
         private const string ScenePath = "Assets/Scenes/Level_01.unity";
 
-        [MenuItem("BulkoGame/Import Environment Art")]
+        [MenuItem("Bulka: Sock Patrol/Import Environment Art")]
         public static void Apply()
         {
             string[] bindings = {

@@ -15,7 +15,7 @@ namespace BulkoGame.Editor
     {
         private const float SockClearanceRadius = .2f;
 
-        [MenuItem("BulkoGame/Levels/Validate Current Level")]
+        [MenuItem("Bulka: Sock Patrol/Levels/Validate Current Level")]
         public static void ValidateCurrentLevel()
         {
             ValidateScene(SceneManager.GetActiveScene());

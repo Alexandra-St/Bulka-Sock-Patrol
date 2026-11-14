@@ -4,7 +4,7 @@ using BulkoGame.Art;
 
 public static class IntegrateUiArt
 {
-    [MenuItem("BulkoGame/Integrate UI art")]
+    [MenuItem("Bulka: Sock Patrol/Integrate UI art")]
     public static void Integrate()
     {
         string root = "Assets/Art/PixelArt/";

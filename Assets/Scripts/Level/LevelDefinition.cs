@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace BulkoGame.Levels
 {
-    [CreateAssetMenu(menuName = "BulkoGame/Level Definition")]
+    [CreateAssetMenu(menuName = "Bulka: Sock Patrol/Level Definition")]
     public sealed class LevelDefinition : ScriptableObject
     {
         public string levelId;

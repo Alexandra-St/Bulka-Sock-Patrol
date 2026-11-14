@@ -3,7 +3,7 @@ using UnityEngine;
 namespace BulkoGame.Art
 {
     // Production environment art. Legacy art remains available for unchanged collider geometry.
-    [CreateAssetMenu(menuName = "BulkoGame/Environment Art Set")]
+    [CreateAssetMenu(menuName = "Bulka: Sock Patrol/Environment Art Set")]
     public sealed class EnvironmentArtSet : ScriptableObject
     {
         public Sprite bed, wardrobe, bedsideTableLamp, lowBookShelf, bedroomRug;
