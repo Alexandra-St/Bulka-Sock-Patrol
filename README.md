@@ -6,7 +6,10 @@ Collect socks → deposit them → defend them from cats.
 
 ## Download
 
-[Releases](https://github.com/Alexandra-St/Bulka-Sock-Patrol/releases)
+- [Windows x86_64](https://github.com/Alexandra-St/Bulka-Sock-Patrol/releases/download/v0.7.0-alpha/BulkaSockPatrol_Alpha_0.7_Windows.zip)
+- [macOS Universal (Apple Silicon + Intel)](https://github.com/Alexandra-St/Bulka-Sock-Patrol/releases/download/v0.7.0-alpha/BulkaSockPatrol_Alpha_0.7_macOS.zip)
+
+[Full Alpha 0.7 Release](https://github.com/Alexandra-St/Bulka-Sock-Patrol/releases/tag/v0.7.0-alpha)
 
 The macOS build is unsigned. If macOS blocks the first launch, use System Settings → Privacy & Security → Open Anyway.
 
