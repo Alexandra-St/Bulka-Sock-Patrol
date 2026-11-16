@@ -21,12 +21,6 @@ After the collect phase, defend deposited socks from cats following authored rou
 
 ![Bulka facing a cat during defense](Screenshots/UI_Polish/Defense_HUD.png)
 
-![A trap slowing a cat](Screenshots/Trap_Cat_Slowed.png)
-
-## Apartment
-
-
-![Bedroom environment](Screenshots/Environment_Integration/Bedroom.png)
 
 ## Engineering highlights
 
